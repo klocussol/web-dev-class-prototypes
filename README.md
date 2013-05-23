@@ -1,2 +1,2 @@
-web-deb-class-prototypes
+web-dev-class-prototypes
 ========================
