@@ -1,0 +1,59 @@
+header {
+	background-color: #2ba6cb;
+	height: 3em;
+}
+
+header p {
+	color: #fff;
+	font-size: 2em;
+	margin-left: 4em;
+}
+
+#profile {
+	margin: 0 auto;
+	margin-top: 5em;
+	width: 64em;
+}
+
+#profile p:first-child {
+	margin: 5em 0 0 2em;
+}
+
+#profile-pic {
+	background-color: #2ba6cb;
+	width: 10em;
+	height: 10em;
+	border-radius: 0.5em;
+	float: left;
+	margin: 0 2em 3em 0;
+}
+
+#profile-content {
+	margin-top: 5em;
+	width: 64em;
+	height: 70em;
+	border: solid 0.2em #2ba6cb;
+}
+
+#info-box {
+	width: 35em;
+	border: solid 0.1em #2ba6cb;
+	border-radius: 0.5em;
+	height: 10em;
+	margin-left: 12em;
+}
+
+#profile-info div:nth-child(3) {
+	float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
