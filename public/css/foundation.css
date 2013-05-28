@@ -10,7 +10,7 @@ body {
   font-size: 100%; }
 
 body {
-  background: white;
+  background: #fff;
   color: #222222;
   padding: 0;
   margin: 0;
@@ -1088,7 +1088,7 @@ td {
 
 /* Default Link Styles */
 a {
-  color: #2ba6cb;
+  color: #000;
   text-decoration: none;
   line-height: inherit; }
   a:hover, a:focus {
@@ -1108,6 +1108,10 @@ p {
     font-size: 0.875em;
     line-height: 1.35;
     font-style: italic; }
+    
+  #info {
+  	font-size: 0.875em;
+  }
 
 /* Default header styles */
 h1, h2, h3, h4, h5, h6 {
@@ -1368,11 +1372,11 @@ button, .button {
   padding-bottom: 0.8125em;
   padding-left: 1.5em;
   font-size: 1em;
-  background-color: #2ba6cb;
-  border-color: #2284a1;
+  background-color: #5ac8bc;
+  border-color: #53b1a7;
   color: white; }
   button:hover, button:focus, .button:hover, .button:focus {
-    background-color: #2284a1; }
+    background-color: #53b1a7; }
   button:hover, button:focus, .button:hover, .button:focus {
     color: white; }
   button.secondary, .button.secondary {
@@ -4157,3 +4161,28 @@ a.th {
     max-width: 500px; }
   .f-dropdown.large {
     max-width: 800px; }
+    
+    
+/* Additional styles 
+----------------------------------------------------------------------------*/
+
+p.left {
+	margin-right: 0.6em;
+}
+
+div.row div.large-8 img, div.row div.large-8 p {
+	padding-top: 0.5em;
+} 
+
+div.row div.large-8 img {
+	padding-left: 2em;
+}
+
+.hidden {
+	display: none;
+}
+
+.current-content {
+	display: block;
+}
+

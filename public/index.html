@@ -9,32 +9,192 @@
 
   
   <link rel="stylesheet" href="css/foundation.css" />
-  <link rel="stylesheet" href="css/styles.css" />
+  
 
   <script src="js/vendor/custom.modernizr.js"></script>
-
+  <script src="js/vendor/jquery.js"></script>
+  <script src="js/main.js"></script>
+  
+  
 </head>
 <body>
 
-	<header>
-		<p>LOGO</p>
-	</header>
-	
-	<div id="profile">
-		<div id="profile-info">
-			<div id="profile-pic"></div>
-			<div id="info-box"><div>
-			<div>
-				<p><a href="#connect" class="button">Connect</a></p>
-				<p><a href="#connect" class="button">Filter</a></p>
-			</div>
-		</div>
-			
-		<div id="profile-content">
+	<div class="row">
+		<div class="large-12 columns">
+			<h2 class="left">VAGABONDER</h2>
+			<img src="img/black/processing-02.png" class="right">
+			<hr />
 		</div>
 	</div>
 
-		<p><a href="#" class="small button">Small Button</a></p>
+	<div class="row">
+		<div class="large-8 columns">
+			<h3 class="left"><a href="#profile">Kyoko Locussol</a></h3>
+			<img class="left" src="img/black/push-pin.png">
+			<p class="left">Washington DC, USA</p>
+		</div>
+	</div>
+			<!-- Grid Example -->
+	<div class="row">
+		<div class="large-12 columns">
+			<div class="row">
+				<div class="large-3 columns">
+					<a href="#profile"><img src="img/profile.jpg"></a>
+					<div class="panel" id="info">
+						<p>Caramel malt bacterial final gravity wort cask conditioning, " amber autolysis, final gravity." barley mouthfeel caramel malt hydrometer carbonation additive carboy.</p> 
+						<p>Infusion berliner weisse autolysis hydrometer barley scotch ale! anaerobic malt real ale specific gravity hops! fermentation hop back, reinheitsgebot hops, bung abv imperial additive.</p>
+					</div>
+				</div>	
+					
+				<div class="columns large-7">  
+				  <p class="left"><a href="#bond" class="small button">BOND</a></p>
+				  <p class="left"><a href="#trips" class="small button">UPCOMING TRIPS</a></p>
+				  <p class="left"><a href="#footprints" class="small button">FOOTPRINTS</a></p>
+				  <p class="left"><a href="#reviews" class="small button">REVIEWS</a></p>
+				  <p class="left"><a href="#media" class="small button">MEDIA</a></p>
+				  
+				 <!-- Profile page -->
+				 <div class="row current-content" id="profile">
+				  	<div class="columns large-12">
+				  		<div class="panel">
+				  			<h4>Recent Activity</h4>
+				  			<hr />
+				  			<div class="row">
+				  				<div class="columns large-3">
+				  					<img src="img/user3.jpg">
+				  				</div>
+				  				<div class="columns large-9">
+				  					<h6>Yumiko Locussol</h6>
+				  					<p>Filter berliner weisse cask brew kettle alcohol bung cask conditioning? bunghole wheat beer glass heat exchanger all-malt finishing hops. pitch-- sparge.</p>
+				  				</div>
+				  				<hr />
+				  			</div>
+				  			<div class="row" id="profile">
+				  				<div class="columns large-9">
+				  					<h6>Nadia Costanzo</h6>
+				  					<p>Seidel real ale secondary fermentation ale; lauter tun shelf life. attenuation microbrewery autolysis priming: mead berliner weisse. keg goblet bunghole, hefe oxidized aroma hops, chocolate malt.</p>
+				  				</div>
+				  				<div class="columns large-3">
+				  					<img src="img/user2.jpg">
+				  				</div>
+				  				<hr />
+				  			</div>
+				  			<div class="row">
+				  				<div class="columns large-3">
+				  					<img src="img/user4.jpg">
+				  				</div>
+				  				<div class="columns large-9">
+				  					<h6>Scotty Ebanks</h6>
+				  					<p>Filter berliner weisse cask brew kettle alcohol bung cask conditioning? bunghole wheat beer glass heat exchanger all-malt finishing hops. pitch-- sparge.</p>
+				  				</div>
+				  				<hr />
+				  			</div>
+				  			<div class="row">
+				  				<div class="columns large-9">
+				  					<h6>Hortense Verspyck</h6>
+				  					<p>Bung, biere de garde bottle conditioning pint glass. wort chiller primary fermentation dunkle pub brewpub?</p>
+				  				</div>
+				  				<div class="columns large-3">
+				  					<img src="img/user1.jpg">
+				  				</div>
+				  				<hr />
+				  			</div>
+				  		</div> <!-- closes panel -->
+				  	</div> <!-- closes columns large-12 -->
+				 </div> <!-- closes #profile -->
+				 
+				<div class="row hidden" id="bond">
+				  	<div class="columns large-10">
+				  		<div class="panel">
+				  			<h4>Let's Bond. Rawr.</h4>
+				  			<hr />
+				  			
+				  			
+						</div>
+					</div>
+				</div> 
+				 
+				</div> <!-- closes columns large-7 --> 
+				
+				
+				<div class="row current-content" id="profile-sidebar">
+					<div class="columns large-2">
+						<div class="panel">
+							<h6>Info Box</h6>
+							<hr />
+							<h8>Age</h8>
+							<hr />
+							<h8>Gender</h8>
+							<hr />
+							<h8>Next Trip</h8>
+							<hr />
+							<h8>Languages</h8>
+							<hr />
+							<h8>Nationality</h8>
+							<hr />
+						</div>
+					</div>
+				</div> <!-- closes "sidebar" row -->
+				
+				
+			</div>
+		</div>
+	</div>
+		
+				<!-- <div class="large-6 columns">
+					<div class="panel">
+						<p>Six columns</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="large-4 columns">
+					<div class="panel">
+						<p>Four columns</p>
+					</div>
+				</div>
+				<div class="large-4 columns">
+					<div class="panel">
+						<p>Four columns</p>
+					</div>
+				</div>
+				<div class="large-4 columns">
+					<div class="panel">
+						<p>Four columns</p>
+					</div>
+				</div>
+			</div>
+
+			<h3>Buttons</h3>
+
+      <div class="row">
+        <div class="large-6 columns">
+          <p><a href="#" class="small button">Small Button</a></p>
+          <p><a href="#" class="button">Medium Button</a></p>
+          <p><a href="#" class="large button">Large Button</a></p>
+        </div>
+        <div class="large-6 columns">
+          <p><a href="#" class="small alert button">Small Alert Button</a></p>
+          <p><a href="#" class="success button">Medium Success Button</a></p>
+          <p><a href="#" class="large secondary button">Large Secondary Button</a></p>
+        </div>
+      </div>
+		</div>
+
+	
+		<div class="large-4 columns">
+			<h4>Getting Started</h4>
+			<p>We're stoked you want to try Foundation! To get going, this file (index.html) includes some basic styles you can modify, play around with, or totally destroy to get going.</p>
+
+			<h4>Other Resources</h4>
+			<p>Once you've exhausted the fun in this document, you should check out:</p>
+			<ul class="disc">
+				<li><a href="http://foundation.zurb.com/docs">Foundation Documentation</a><br />Everything you need to know about using the framework.</li>
+				<li><a href="http://github.com/zurb/foundation">Foundation on Github</a><br />Latest code, issue reports, feature requests and more.</li>
+				<li><a href="http://twitter.com/foundationzurb">@foundationzurb</a><br />Ping us on Twitter if you have questions. If you build something with this we'd love to see it (and send you a totally boss sticker).</li>
+			</ul>
+		</div>
+	</div> -->
 
   <script>
   document.write('<script src=' +
