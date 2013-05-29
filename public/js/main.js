@@ -5,7 +5,8 @@ $(function() {
 		var content = $(this).attr("href");
 		var sidebar = content + "-sidebar";
 		
-		$("div").removeClass("current-content");
+		$("div.content").removeClass("current-content");
+		$("div.sidebar").removeClass("current-content");
 		$(content).addClass("current-content");
 		$(sidebar).addClass("current-content");
 	});

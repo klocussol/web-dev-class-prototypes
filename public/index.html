@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en" > <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
-
+<!-- this is a test -->
 <head>
 	<meta charset="utf-8" />
   <meta name="viewport" content="width=device-width" />
-  <title>Foundation 4</title>
+  <title>Vagabonder</title>
 
   
   <link rel="stylesheet" href="css/foundation.css" />
+  <link rel="stylesheet" href="css/styles.css" />
   
 
   <script src="js/vendor/custom.modernizr.js"></script>
@@ -18,11 +19,16 @@
   
 </head>
 <body>
-
+		
+	<header>	
+		<div class="row">
+			<h2 class="left">VAGABONDER</h2>
+			<!--<img src="img/white/processing-02.gif" class="right">-->
+		</div>
+	</header>
+	
 	<div class="row">
 		<div class="large-12 columns">
-			<h2 class="left">VAGABONDER</h2>
-			<img src="img/black/processing-02.png" class="right">
 			<hr />
 		</div>
 	</div>
@@ -39,7 +45,7 @@
 		<div class="large-12 columns">
 			<div class="row">
 				<div class="large-3 columns">
-					<a href="#profile"><img src="img/profile.jpg"></a>
+					<a href="#profile"><img src="img/profile2.jpg"></a>
 					<div class="panel" id="info">
 						<p>Caramel malt bacterial final gravity wort cask conditioning, " amber autolysis, final gravity." barley mouthfeel caramel malt hydrometer carbonation additive carboy.</p> 
 						<p>Infusion berliner weisse autolysis hydrometer barley scotch ale! anaerobic malt real ale specific gravity hops! fermentation hop back, reinheitsgebot hops, bung abv imperial additive.</p>
@@ -47,14 +53,14 @@
 				</div>	
 					
 				<div class="columns large-7">  
-				  <p class="left"><a href="#bond" class="small button">BOND</a></p>
+				  <p class="left"><a href="#bond" class="small button">BONDS</a></p>
 				  <p class="left"><a href="#trips" class="small button">UPCOMING TRIPS</a></p>
 				  <p class="left"><a href="#footprints" class="small button">FOOTPRINTS</a></p>
 				  <p class="left"><a href="#reviews" class="small button">REVIEWS</a></p>
 				  <p class="left"><a href="#media" class="small button">MEDIA</a></p>
 				  
 				 <!-- Profile page -->
-				 <div class="row current-content" id="profile">
+				 <div class="row current-content content" id="profile">
 				  	<div class="columns large-12">
 				  		<div class="panel">
 				  			<h4>Recent Activity</h4>
@@ -103,12 +109,14 @@
 				  	</div> <!-- closes columns large-12 -->
 				 </div> <!-- closes #profile -->
 				 
-				<div class="row hidden" id="bond">
+				<div class="row content" id="bond">
 				  	<div class="columns large-10">
 				  		<div class="panel">
 				  			<h4>Let's Bond. Rawr.</h4>
 				  			<hr />
-				  			
+				  			<form>
+				  				Make bonds in: <input type="text" name="city" placeholder="Washington, DC">
+				  			</form>
 				  			
 						</div>
 					</div>
@@ -117,7 +125,7 @@
 				</div> <!-- closes columns large-7 --> 
 				
 				
-				<div class="row current-content" id="profile-sidebar">
+				<div class="row current-content sidebar" id="profile-sidebar">
 					<div class="columns large-2">
 						<div class="panel">
 							<h6>Info Box</h6>

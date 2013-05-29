@@ -1,0 +1,70 @@
+/* General styles 
+----------------------------------------------------------------------------*/
+
+body {
+	font-family: "Walkway Condensed";
+}
+
+h1, h2, h3, h4, h5, h6, h7, h8 {
+	font-family: "basic title font";
+}
+
+p {
+	font-size: 120%;
+}
+
+/* Header Styling
+--------------------------------------------------------------*/
+
+header {
+	background-color: #5ac8bc;
+	height: 3em;
+}
+
+header h2 {
+	color: #fff;
+	padding-top: 0.2em;
+	margin: 0;
+	line-height: 1;
+}
+
+/* Navigation Styling
+---------------------------------------------------------------*/
+
+p.left {
+	margin-right: 0.6em;
+}
+
+
+/* Main Profile Area Styling
+----------------------------------------------------------------*/
+
+.content {
+	display: none;
+}
+
+.current-content {
+	display: block;
+}
+
+/* Main Bonds Area Styling
+-----------------------------------------------------------------*/
+
+form {
+	font-size: 120%;
+}
+
+form input {
+	
+}
+
+
+
+div.row div.large-8 img, div.row div.large-8 p {
+	padding-top: 0.5em;
+} 
+
+div.row div.large-8 img {
+	padding-left: 2em;
+}
+

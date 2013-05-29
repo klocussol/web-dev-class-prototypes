@@ -4163,26 +4163,5 @@ a.th {
     max-width: 800px; }
     
     
-/* Additional styles 
-----------------------------------------------------------------------------*/
 
-p.left {
-	margin-right: 0.6em;
-}
-
-div.row div.large-8 img, div.row div.large-8 p {
-	padding-top: 0.5em;
-} 
-
-div.row div.large-8 img {
-	padding-left: 2em;
-}
-
-.hidden {
-	display: none;
-}
-
-.current-content {
-	display: block;
-}
 
